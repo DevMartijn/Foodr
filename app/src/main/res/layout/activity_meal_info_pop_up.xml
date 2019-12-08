@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    tools:context="com.example.unskilled.foodr.MealInfoPopUp"
+    android:background="@drawable/customborder"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/meal_info_pop_up_guests"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Aantal gasten"/>
+
+    <Button
+        android:id="@+id/meal_info_pop_up_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Inschrijven"/>
+
+
+
+</LinearLayout>

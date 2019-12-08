@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Foodr</string>
+    <string name="title_activity_meals">MealsActivity</string>
+</resources>
